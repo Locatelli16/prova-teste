@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta charset="utf-8"/>
+  </head>
+  <link rel="stylesheet" href="estilos/media-query.css">
+
+  <body>
+
+  <div>  
+    <h1>Cadastro</h1>
+    <p>Complete os Campos Abaixo Com os Seus Dados</p>
+    
+    <form autocomplete="on" method="post">
+    <p><label for="inome">Nome<br> </label>
+       <input type="text" name="nome" id="inome"></p>
+
+    <p><label for="isobrenome">Sobrenome<br></label> 
+       <input type="text" name="Sobrenome" id="isobrenome"></p>
+
+    <p><label for="iemail">E-Mail:<br> </label>
+       <input type="email" name="email" id="iemail" required ></p>
+
+    <fieldset>
+      <legend><b>Você é um desenvolvedor:</b></legend>
+      <input type="radio" name="dev" id="ifull"> <label for="ifull">FullStack</label><br>
+      <input type="radio" name="dev" id="ifront"> <label for="ifront">Front-End</label><br>
+      <input type="radio" name="dev" id="iback"> <label for="iback">Back-End</label>     
+    </fieldset>
+
+    <p><input type="submit" value="Enviar">        
+    </form>
+  </div>  
+
+  </body>
